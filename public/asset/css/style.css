@@ -1,0 +1,190 @@
+.bv {
+  margin-top: 30px;
+}
+.image-acceuil{
+  background-image: url("../img/acceuil.webp");
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tille-acceuil{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 80vh;
+
+}
+nav{
+  margin: 0 5%;
+}
+.navbar-nav{
+  margin: 0 45%;
+}
+.nav-link{
+  
+  width: 200px;
+}
+.header-color{
+  background-color: #210493;
+  padding: 0 13% 0 65%;
+}
+.header-color{
+  justify-content: end;
+  justify-content: space-around;
+}
+.welcom{
+  font-size: 50px;
+}
+.apropos{
+  font-size: 30px;
+}
+.tast{
+  color: red;
+}
+.commandez{
+  background-color: #FF7E55;
+  color: white;
+
+}
+.gamme-gateau{
+  font-size: 20px;
+}
+.partie2{
+  justify-content: space-around;
+}
+
+.reserver{
+  margin: 2% 40% 2% 40%;
+  width: 200px;
+  height: 70px;
+  font-size: 20px;
+  background-color: #FF7E55;
+  color: white;
+}
+
+.nos-actualités{
+  background-color: #968989;
+  height: 350px;
+}
+.actualite-titre{
+  margin-top: 20px;
+}
+.inscrivez{
+  font-size: 25px;
+  
+}
+.form-control{
+  width: 900px;
+  height: 50px;
+  margin-left: 200px;
+}
+.souscrire{
+  margin-left: 600px;
+  margin-top: 20px;
+  width: 150px;
+  font-size: 20px;
+  color: white;
+  background-color: #FF7E55;
+}
+.commander-traiteur{
+  margin-left: 600px;
+  margin-top: 20px;
+  width: 250px;
+  font-size: 20px;
+  color: white;
+  background-color: #FF7E55;
+}
+
+.btn{
+  color: white;
+  background-color: #FF7E55;
+  
+}
+.partie2{
+  justify-content: space-around
+}
+.text-partie2{
+  margin-left: 100px;
+  margin-top: 50px;
+  font-size: 35px;
+}
+
+.royaltast{
+  background-color: #210493;
+  height: 350px;
+}
+
+.test-color{
+  color: #FF7E55;
+}
+
+.resau-socio{
+  margin-left: 10px;
+}
+.slogan{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.jour{
+  font-size: 20px;
+  
+}
+.localisation{
+  font-size: 20px;
+  margin-left: 15px ;
+}
+
+.copyrith{
+  background-color: #58C5CC;
+  height: 50px;
+  font-size: 20px;
+}
+
+.formule-acceuil{
+  font-size: 40px;
+  padding: 10% 30%;
+  
+  
+}
+.tirait{
+  margin-bottom: 2px solid red;
+}
+@media all and (max-width: 768px) {
+  .raw {
+    flex-wrap: wrap;
+  }
+
+  .bv {
+    margin-left: 185px !important;
+    margin-top: 30px;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .boutique-line {
+    padding: 12% !important;
+  }
+
+  .samousa {
+    width: 410px;
+  }
+  .bv {
+    margin-left: 0px !important;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .boutique-line {
+    padding: 62% !important;
+  }
+
+  .samousa {
+    width: 310px;
+  }
+  .bv {
+    margin-left: 0px !important;
+  }
+}
+
+
+ 
