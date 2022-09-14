@@ -89,7 +89,7 @@
               <div class="card-body">
                 <h5 class="card-title">Gâteau mousse mangue</h5>
                 <p class="card-text">Commandez vos gâteau à partir de 6500F.</p>
-                <a href="#" class="btn">commandez</a>
+                <a href="{{route('commandez')}}" class="btn">commandez</a>
               </div>
             </div>
           </div>
@@ -99,7 +99,7 @@
               <div class="card-body">
                 <h5 class="card-title">Forêt noir</h5>
                 <p class="card-text">Forêt noir à la chantily <br> 25000f/35000f</p>
-                <a href="#" class="btn">commandez</a>
+                <a href="{{route('commandez')}}" class="btn">commandez</a>
               </div>
             </div>
           </div>
@@ -110,7 +110,7 @@
                 <h5 class="card-title">Cup cake</h5>
                 <p class="card-text">Cup cake<br>
                  3500f(6)</p>
-                <a href="#" class="btn">commandez</a>
+                 <a href="{{route('commandez')}}" class="btn">commandez</a>
               </div>
             </div>
           </div>
@@ -126,7 +126,7 @@
             <div class="card-body">
               <h5 class="card-title">happy birthday </h5>
               <p class="card-text"> Gâteau pour adule <br> 20000f/25000f</p>
-              <a href="#" class="btn">commandez</a>
+              <a href="{{route('commandez')}}" class="btn">commandez</a>
             </div>
           </div>
         </div>
@@ -136,7 +136,7 @@
             <div class="card-body">
               <h5 class="card-title">Mousse au chocolat</h5>
               <p class="card-text">Mousse au chocolat <br> 1500f/2500f</p>
-              <a href="#" class="btn">commandez</a>
+              <a href="{{route('commandez')}}" class="btn">commandez</a>
             </div>
           </div>
         </div>
@@ -146,7 +146,7 @@
             <div class="card-body">
               <h5 class="card-title">Gâteau de marriage</h5>
               <p class="card-text">Personaliser vos gâteaux en fonction de vos budjet</p>
-              <a href="#" class="btn">commandez</a>
+              <a href="{{route('commandez')}}" class="btn">commandez</a>
             </div>
           </div>
         </div>
@@ -166,7 +166,8 @@
        <p>Nous accompagnons également votre événement d’entreprise d’un buffet complet et des desserts gourmands.</p>
      </div>
    </div>
-   <button type="submit" class="btn commander-traiteur ">reservez nos services</button>
+   <a href="{{route('formulaire')}}" class="btn reserver">reservez nos services</a>
+   
 </div>
    
 <!-------------------------------- footer debut------------------------>
@@ -175,7 +176,7 @@
 
 <div class="nos-actualités container-fluid">
   <div class="container">
-    <h1 class="color-actu text-center mt-5 actualite-titre">NOS ACTUALITÉS</h1>
+    <h1 class="color-actu text-center p-3 actualite-titre">NOS ACTUALITÉS</h1>
     <div><p class="text-center mt-3 inscrivez">Pour recevoir nos actualités, inscrivez-vous ci-dessous</p></div>
 
     <form>
@@ -196,7 +197,7 @@
  <!-------------------------------- fin formulaire ------------------------>
 
 <div>
-  <div class="raw royaltast d-flex">
+  <div class="raw royaltast pt-5 d-flex">
     <div class="col-3 slogan">
       <h5 class="text-light">ROYALTAST pous realiser vos réves <br> et celle de vos petits enfants</h5>
       <div class="resau-socio mt-3   d-flex">

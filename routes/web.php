@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\FormulaireController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,6 +35,10 @@ Route::get('/formulaire', function () {
     return view('layouts.formulaire');
 })->name('formulaire');
 
+Route::get('/commandez', function () {
+    return view('layouts.commandez');
+})->name('commandez');
+
 /*------------------------------------------
 --------------------------------------------
 All Normal Users Routes List
@@ -43,6 +48,12 @@ Route::middleware(['auth', 'user-access:user'])->group(function () {
   
     Route::get('/home', [HomeController::class, 'index'])->name('home');
 });
+
+// formulaire database route
+route::post('formulaire', [FormulaireController::class, 'formulaire']);
+
+// commandez database route
+Route::post('/layouts', [CommandezController::class, 'commandez']);
   
 /*------------------------------------------
 --------------------------------------------

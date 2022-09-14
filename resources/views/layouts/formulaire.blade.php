@@ -71,7 +71,8 @@
                             <h4 class="text-center">Réservez ici!</h4>
                         </div>
                         <div class="card-body">
-                            <form action="inscription_postulant.php" method="post">
+                            <form action="formulaire" method="post">
+                              @csrf
                                 <div class=".form-control mb-3">
                                     <label for="InputName" class="form-label">Votre nom</label>
                                     <input type="text" name="nom" class="form-control" id="InputName" required>
@@ -88,21 +89,23 @@
                                     <label for="InputNumberWhatsap" class="form-label">Votre numéro de téléphone</label>
                                     <input type="number" name="telephone" class="form-control" id="InputNumberWhatsap" required>
                                 </div>
-                                <div class="mb-3">
-                                    <label for="InputNumberWhatsap" class="form-label">Type d'événement</label>
-                                    <input type="number" name="telephone" class="form-control" id="InputNumberWhatsap" required>
-                                </div>
+                                <select class="form-control" aria-label="Default select example" name="events">
+                                  <option selected>Type d'événement</option>
+                                  <option value="Mariage">Mariage</option>
+                                  <option value="Anniversaire">Anniversaire</option>
+                                  <option value="Baptème">Baptème</option>
+                                </select>
                                 <div class="mb-3">
                                     <label for="InputNumberWhatsap" class="form-label">Nombre de personnes</label>
-                                    <input type="number" name="telephone" class="form-control" id="InputNumberWhatsap" required>
+                                    <input type="number" name="numberperson" class="form-control" id="InputNumberWhatsap" required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="InputNumberWhatsap" class="form-label">Votre budget</label>
-                                    <input type="number" name="telephone" class="form-control" id="InputNumberWhatsap" required>
+                                    <input type="number" name="budget" class="form-control" id="InputNumberWhatsap" required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="InputNumberWhatsap" class="form-label">Votre message</label>
-                                    <input type="number" name="telephone" class="form-control" id="InputNumberWhatsap" required>
+                                    <input type="text" name="message" class="form-control" id="InputNumberWhatsap" required>
                                 </div>
                               
                                 <div class="souscrire form-button mt-3">
