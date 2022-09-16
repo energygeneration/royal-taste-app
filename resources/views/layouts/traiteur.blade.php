@@ -53,33 +53,32 @@
         <div class="tille-acceuil">
          <div class="formule-acceuil">
           <p class="text-light ">WELCOME TO ROYALTAST</p>
-          <p class="text-light ">Ouvert du mardi a dimanche
-            de 10h a 19h</p>
+          <p class="text-light ">Un service traiteur de qualiter pôur vous accompagné. <br>Disponible tous les jours </p>
          </div>
         </div>
         </div>
     </div>
 
     <div class="container">
-        <h3 class="mt-5">Un traiteur de qualité pour vous satisfaire 
-            a tout moment</h3>
+        <h1 class="mt-5 text-center">Un traiteur de qualité pour vous satisfaire 
+            a tout moment</h1>
         <div class="raw img-patisserie mt-5 d-flex">
             <div class=" col-6 menu">
                 <ul>
-                    <li> Riz cantonnais</li>
-                    <li>Riz créole</li>
-                    <li> Pommes sablées</li>
-                    <li>Navarin d’agneau</li>
-                    <li> Filet de boeuf</li>
-                    <li> Sandwichs</li>
-                    <li>Hors d’oeuvre</li>
-                    <li> salade</li>
-                    <li> tarcos</li>
-                    <li>etc...</li>
+                    <li class="fs-4"> Riz cantonnais</li>
+                    <li class="fs-4">Riz créole</li>
+                    <li class="fs-4"> Pommes sablées</li>
+                    <li class="fs-4">Navarin d’agneau</li>
+                    <li class="fs-4"> Filet de boeuf</li>
+                    <li class="fs-4"> Sandwichs</li>
+                    <li class="fs-4">Hors d’oeuvre</li>
+                    <li class="fs-4"> salade</li>
+                    <li class="fs-4"> tarcos</li>
+                    <li class="fs-4">etc...</li>
                 </ul>
             </div>
             <div >
-                <img src="./asset/img/traiteur3.jpg" class="sandwich" alt="">
+                <img src="./asset/img/traiteur3.jpg" class="sandwich" width="600" height="420" alt="">
             </div>
 
         </div > 
@@ -87,29 +86,29 @@
 
     <div class=" raw d-flex mt-5 container" id="galerie-service">
         <div class="col-4">
-            <img src="./asset/img/acceuil-traiteur.jpg" class="galerie-traiteur" width="400" alt="">
+            <img src="./asset/img/buffet1.jpg" class="galerie-traiteur" width="400" height="300" alt="">
         </div>
 
         <div class="col-4">
-            <img src="./asset/img/acceuil-traiteur.jpg" class="galerie-traiteur" width="400" alt="">
+            <img src="./asset/img/buffet-6329757_1920.jpg" class="galerie-traiteur" width="400" height="300"alt="">
         </div>
 
         <div class="col-4">
-            <img src="./asset/img/acceuil-traiteur.jpg" class="galerie-traiteur" width="400" alt="">
+            <img src="./asset/img/buffet5.jpg" class="galerie-traiteur" width="400" height="300" alt="">
         </div>
     </div>
 
     <div class=" raw d-flex mt-5 container" id="galerie-service">
         <div class="col-4">
-            <img src="./asset/img/acceuil-traiteur.jpg" class="galerie-traiteur" width="400" alt="">
+            <img src="./asset/img/salad1.jpg" class="galerie-traiteur" width="400" height="300" alt="">
         </div>
 
         <div class="col-4">
-            <img src="./asset/img/acceuil-traiteur.jpg" class="galerie-traiteur" width="400" alt="">
+            <img src="./asset/img/buffet3.jpg" class="galerie-traiteur" width="400" height="300" alt="">
         </div>
 
         <div class="col-4">
-            <img src="./asset/img/acceuil-traiteur.jpg" class="galerie-traiteur" width="400" alt="">
+            <img src="./asset/img/buffet2.jpg" class="galerie-traiteur" width="400"height="300" alt="">
         </div>
     </div>
 

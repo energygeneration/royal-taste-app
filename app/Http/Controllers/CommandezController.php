@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Commandez;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\CommandezController;
@@ -10,7 +11,7 @@ class CommandezController extends Controller
 {
     //
     function commandez(Request $req){
-        $commandez = new commandez;
+        $commandez = new Commandez;
         $commandez->nom=$req->nom;
         $commandez->telephone=$req->telephone;
         $commandez->Prix=$req->Prix;

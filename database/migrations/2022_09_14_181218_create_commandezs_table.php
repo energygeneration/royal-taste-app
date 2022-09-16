@@ -20,7 +20,7 @@ return new class extends Migration
             $table->integer('Prix');
             $table->string('color');
             $table->string('Inscription');
-            $table->integer('Date');
+            $table->date('Date');
             $table->string('Lieu');
             $table->string('Heure');
             $table->timestamps();

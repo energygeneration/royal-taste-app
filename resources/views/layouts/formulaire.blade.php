@@ -46,14 +46,14 @@
       </div>
     </nav>
 
-    <div class="form-img-acceuil">
+    <!-- <div class="form-img-acceuil">
     <div class="tille-acceuil">
      <div class="formule-acceuil">
       <p class="text-light ">WELCOME TO ROYALTAST</p>
       <p class="text-light welcom ">Ouvert du mardi à samedi de 10h à 19h <br>
              Les dimanches de 10h à 20h</p>
      </div>
-    </div>
+    </div> -->
     </div>
 
 
@@ -132,7 +132,7 @@
 
  <!-------------------------------- formulaire d'inscription ------------------------>
 
-<div class="nos-actualités container-fluid">
+<!-- <div class="nos-actualités container-fluid">
   <div class="container">
     <h1 class="color-actu text-center mt-5 actualite-titre">NOS ACTUALITÉS</h1>
     <div><p class="text-center mt-3 inscrivez">Pour recevoir nos actualités, inscrivez-vous ci-dessous</p></div>
@@ -150,7 +150,7 @@
       <button type="submit" class="btn souscrire ">s'inscrire</button>
     </form>
   </div>
-</div>
+</div> -->
 
  <!-------------------------------- fin formulaire ------------------------>
 

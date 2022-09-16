@@ -179,7 +179,8 @@
     <h1 class="color-actu text-center p-3 actualite-titre">NOS ACTUALITÉS</h1>
     <div><p class="text-center mt-3 inscrivez">Pour recevoir nos actualités, inscrivez-vous ci-dessous</p></div>
 
-    <form>
+    <form action="/textvu" method="post"> 
+    @csrf
       <div class="form1 mb-3">
         <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="votre nom">
        
