@@ -152,14 +152,115 @@ nav{
 .tirait{
   margin-bottom: 2px solid red;
 }
+@media all and (max-width: 1440px){
+  .navbar-nav{
+    margin: 0 20%;
+  }
+  .col-3{
+
+    width: 300px !important;
+
+  }
+  .welcom{
+    font-size: 35px;
+    
+  }.jour{
+    padding-right: 0px;
+  }
+
+ 
+  
+}
+
+@media all and (max-width: 1024px){
+  .form-control {
+    margin-left: 10px;
+  }
+
+  .slogan {
+    margin-left: 0;
+  }
+
+  .navbar-nav{
+    margin: 0 10% !important;
+  }
+  .nav-link{
+  width: 150px;
+  }
+
+  .welcom{
+    font-size: 32px !important;
+    
+  }
+  .apropos{
+    font-size: 25px;
+  }
+  .fraise{
+    width: 450px;
+  }
+  .text-partie2{
+    margin-left: 50px;
+    margin-top: 100px;
+    font-size: 25px;
+    color: red;
+  }
+  .imge-traiteur{
+    width: 300px !important;
+  }
+  input{
+    width: 750px !important;
+    margin-left: 100px !important;
+  }
+  .btn.souscrire{
+    margin-left: 400px !important;
+  }
+  .text-light{
+    font-size: 18px;
+  }
+  
+  .horaire{
+    font-size: 12px;
+  }
+ 
+}
+
 @media all and (max-width: 768px) {
   .raw {
     flex-wrap: wrap;
   }
+  .royal{
+    flex-wrap: wrap !important;
+  }
 
+  .accompagnement{
+    flex-wrap: wrap;
+  }
   .bv {
     margin-left: 185px !important;
     margin-top: 30px;
+  }
+  input{
+    width: 600px !important;
+    margin-left: 50px;
+  }
+  .souscrire {
+    margin-left: 300px;
+  }
+  .reserver {
+    margin: 2% 33% 2% 34%;
+  } 
+  .welcom{
+    font-size: 30px;
+    margin-top: 30px;
+    padding: 18% 16%;
+  }
+  .fraise{
+    width: 450px;
+   margin-left: 150px;
+  }
+  .imge-traiteur{
+    margin-right: 200px;
+    width: 500px !important;
   }
 }
 
@@ -188,6 +289,7 @@ nav{
     margin-left: 0px !important;
   }
 }
+
 
 
  

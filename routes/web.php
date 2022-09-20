@@ -50,7 +50,7 @@ Route::get('/admin-dashbord', function () {
 // })->name('textvu');
 
 // commandez database route
-Route::post('/textvu', [ActualiterController::class, 'actualiter']);
+Route::get('/textvu', [ActualiterController::class, 'actualiter']);
 /*------------------------------------------
 --------------------------------------------
 All Normal Users Routes List

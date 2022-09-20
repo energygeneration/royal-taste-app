@@ -47,7 +47,7 @@
     <div class="image-acceuil">
     <div class="tille-acceuil">
      <div class="formule-acceuil">
-      <p class="text-light welcom ">WELCOME TO ROYALTASTE</p>
+      <p class="text-light welcom ">WELCOME TO <span>ROYAL</span><span class="tast">TASTE</span></p>
       <p class="text-light welcom ">Ouvert du mardi à samedi de 10h à 19h <br>
              Les dimanches de 10h à 20h</p>
      </div>
@@ -58,14 +58,14 @@
 
 
     <div class="container">
-      <div class="raw d-flex mt-5">
-        <div class="col apropos">
+      <div class="royal d-flex mt-5">
+        <div class=" apropos">
             <p>ROYAL TASTE, c’est la passion de la pâtisserie et l’envie de gourmandises de saison.
               Nos ingrédients préférés: Les fruits, les fleurs et le chocolat, dont les couleurs 
               et les goûts se déclinent à l’envie pour donner une touche 
               de poésie et de légèreté à votre dessert ! </p>
         </div>
-        <div class="col">
+        <div class="">
             <img src="./asset/img/gateau-fraise.jpg" class="fraise" alt="">
         </div>
       </div>
@@ -158,12 +158,12 @@
     <!--------------------------------   notre service traiteur    ------------------------>
 
 
-   <div class="d-flex mt-5 partie2">
+   <div class="accompagnement d-flex mt-5 partie2">
      <div class="imge-traiteur">
        <img src="./asset/img/buffet-6329757_1920.jpg" width="700" alt="">
      </div>
      <div class="text-partie2">
-       <p>Nous accompagnons également votre événement d’entreprise d’un buffet complet et des desserts gourmands.</p>
+       <p>Nous accompagnons également vos différent événements d’un buffet complet et de desserts gourmands.</p>
      </div>
    </div>
    <a href="{{route('formulaire')}}" class="btn reserver">reservez nos services</a>
@@ -197,9 +197,9 @@
 
  <!-------------------------------- fin formulaire ------------------------>
 
-<div>
+ <div>
   <div class="raw royaltast pt-5 d-flex">
-    <div class="col-3 slogan">
+    <div class="col-4 slogan">
       <h5 class="text-light">ROYALTAST pous realiser vos réves <br> et celle de vos petits enfants</h5>
       <div class="resau-socio mt-3   d-flex">
         <img src="./asset/img/Vector__2_-removebg-preview.png" alt="">
@@ -207,10 +207,10 @@
       </div>
     </div>
 
-    <div class="col-3 mt-3 contact">
+    <div class="col-4 mt-3 contact">
       <h3 class=" test-color"> <span class="trait">NOUS CONT</span>ACTER</h3>
       <div class="d-flex mt-4">
-        <img src="./asset/img/Vector__1_-removebg-preview copie.png" class="" width="20" height="20" alt="">
+        <img src="./asset/img/Vector__1_-removebg-preview copie.png" class="phon" width="15" height="15" alt="">
         <p class="text-light localisation">boutique
            vakpossito fish<br>
            lomé-togo</p>
@@ -224,15 +224,11 @@
 
     </div>
 
-    <div class="col-3  mt-3">
-      <h3 class=" test-color">HORAIRES</h3>
+    <div class="col-4  mt-3">
+      <h3 class=" test-color horaire">HORAIRES</h3>
       <p class="text-light  mt-4 jour">
         Du mardi au samedi de 10h à 19h.<br>
         Le dimanche de 10h à 20h.</p>
-    </div>
-
-    <div class="col-3 mt-3">
-      <h3 class=" test-color">PAIEMENT SÉCURISÉ</h3>
     </div>
   </div>
 </div>
