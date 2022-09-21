@@ -23,6 +23,10 @@ nav{
   
   width: 200px;
 }
+
+.navposition{
+  margin: 0 20%;
+}
 .header-color{
   background-color: #210493;
   padding: 0 13% 0 65%;
@@ -94,6 +98,9 @@ nav{
   background-color: #FF7E55;
 }
 
+.btn-reserve{
+  border-radius: 10px;
+}
 .btn{
   color: white;
   background-color: #FF7E55;
@@ -154,7 +161,11 @@ nav{
 }
 @media all and (max-width: 1440px){
   .navbar-nav{
-    margin: 0 20%;
+    margin: 0 0% !important;
+  }
+  .text-partie2{
+    font-size: 25px !important;
+    width: 350px !important;
   }
   .col-3{
 
@@ -167,7 +178,9 @@ nav{
   }.jour{
     padding-right: 0px;
   }
-
+  .navposition{
+    margin: 0;
+  }
  
   
 }
@@ -177,6 +190,9 @@ nav{
     margin-left: 10px;
   }
 
+  .navposition{
+    margin: 0 -5%;
+  }
   .slogan {
     margin-left: 0;
   }
@@ -228,6 +244,14 @@ nav{
   .raw {
     flex-wrap: wrap;
   }
+  .partie2{
+    flex-wrap: wrap;
+  }
+
+  .btn-reserve{
+    margin-left: 227px;
+    border-radius: 10px;
+  }
   .royal{
     flex-wrap: wrap !important;
   }
@@ -275,6 +299,25 @@ nav{
   .bv {
     margin-left: 0px !important;
   }
+  .taiteur{
+    width: 582px !important;
+  }
+  .btn-reserve{
+    margin-left: 63px;
+  }
+
+  .bv{
+    margin-left: 47px !important;
+  }
+}
+
+@media all and (max-width: 375px){
+  .taiteur{
+    width: 550px !important;
+  }
+  .bv{
+    margin-left: 35px !important;
+  }
 }
 
 @media all and (max-width: 320px) {
@@ -287,6 +330,17 @@ nav{
   }
   .bv {
     margin-left: 0px !important;
+  }
+
+  .taiteur{
+    width: 500px !important;
+  }
+  h1{
+    font-size: 10px !important;
+  }
+
+  .btn-reserve{
+    margin-left: 10px;
   }
 }
 

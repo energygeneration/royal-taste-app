@@ -11,7 +11,7 @@
   
   }
 
-
+  
   .commande{
         margin: 2% 35% 2% 35%;
         width: 300px;
@@ -22,10 +22,28 @@
         border-radius: 5px;
     
   }
+  .navposition{
+    margin: 0 20%;
+  }
   li{
       font-size: 20px;
   }
 
+  @media all and (max-width: 1440px){
+    .navposition{
+      margin: 0 0% !important;
+    }
+    .btn-commande{
+      margin-left: 400px !important;
+      margin-top: 300px !important;
+    }
+
+  }
+  @media all and (max-width: 1024px){
+    nav{
+      margin: 0 !important;
+    }
+  }
 
   @media all and (max-width: 768px){
     .galerie-traiteur{
@@ -34,7 +52,14 @@
     .sandwich{
       width: 300px;
     }
+    .btn-commande{
+      margin-left: 222px;
+    }
     
+    .fraise {
+      width: 398px;
+      margin-left: 0px;
+}
   }
 
   @media all and (max-width: 425px){
@@ -43,5 +68,25 @@
     }
     #galerie-service {
         flex-wrap: wrap;
+    }
+
+    .fraise {
+      width: 350px !important;
+      margin-left: 0px !important;
+    }
+
+    .btn-commande{
+      margin-left: 100px;
+    }
+    .btn-secondary{
+      display: none !important;
+    }
+    
+  }
+
+  @media all and (max-width: 425px){
+    .fraise {
+      width: 280px !important;
+      margin-left: 0px !important;
     }
   }
