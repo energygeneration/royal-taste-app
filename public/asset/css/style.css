@@ -23,6 +23,10 @@ nav{
   
   width: 200px;
 }
+
+.navposition{
+  margin: 0 20%;
+}
 .header-color{
   background-color: #210493;
   padding: 0 13% 0 65%;
@@ -54,8 +58,8 @@ nav{
 
 .reserver{
   margin: 2% 40% 2% 40%;
-  width: 200px;
-  height: 70px;
+  width: 250px;
+  height: 55px;
   font-size: 20px;
   background-color: #FF7E55;
   color: white;
@@ -94,6 +98,9 @@ nav{
   background-color: #FF7E55;
 }
 
+.btn-reserve{
+  border-radius: 10px;
+}
 .btn{
   color: white;
   background-color: #FF7E55;
@@ -139,6 +146,9 @@ nav{
   height: 50px;
   font-size: 20px;
 }
+.reservation{
+  text-decoration: none;
+}
 
 .formule-acceuil{
   font-size: 40px;
@@ -149,14 +159,132 @@ nav{
 .tirait{
   margin-bottom: 2px solid red;
 }
+@media all and (max-width: 1440px){
+  .navbar-nav{
+    margin: 0 0% !important;
+  }
+  .text-partie2{
+    font-size: 25px !important;
+    width: 350px !important;
+  }
+  .col-3{
+
+    width: 300px !important;
+
+  }
+  .welcom{
+    font-size: 35px;
+    
+  }.jour{
+    padding-right: 0px;
+  }
+  .navposition{
+    margin: 0;
+  }
+ 
+  
+}
+
+@media all and (max-width: 1024px){
+  .form-control {
+    margin-left: 10px;
+  }
+
+  .navposition{
+    margin: 0 -5%;
+  }
+  .slogan {
+    margin-left: 0;
+  }
+
+  .navbar-nav{
+    margin: 0 10% !important;
+  }
+  .nav-link{
+  width: 150px;
+  }
+
+  .welcom{
+    font-size: 32px !important;
+    
+  }
+  .apropos{
+    font-size: 25px;
+  }
+  .fraise{
+    width: 450px;
+  }
+  .text-partie2{
+    margin-left: 50px;
+    margin-top: 100px;
+    font-size: 25px;
+    color: red;
+  }
+  .imge-traiteur{
+    width: 300px !important;
+  }
+  input{
+    width: 750px !important;
+    margin-left: 100px !important;
+  }
+  .btn.souscrire{
+    margin-left: 400px !important;
+  }
+  .text-light{
+    font-size: 18px;
+  }
+  
+  .horaire{
+    font-size: 12px;
+  }
+ 
+}
+
 @media all and (max-width: 768px) {
   .raw {
     flex-wrap: wrap;
   }
+  .partie2{
+    flex-wrap: wrap;
+  }
 
+  .btn-reserve{
+    margin-left: 227px;
+    border-radius: 10px;
+  }
+  .royal{
+    flex-wrap: wrap !important;
+  }
+
+  .accompagnement{
+    flex-wrap: wrap;
+  }
   .bv {
     margin-left: 185px !important;
     margin-top: 30px;
+  }
+  input{
+    width: 600px !important;
+    margin-left: 50px;
+  }
+  .souscrire {
+    margin-left: 300px;
+  }
+  .reserver {
+    margin: 2% 33% 2% 34%;
+  } 
+  .welcom{
+    font-size: 30px;
+    margin-top: 30px;
+    padding: 18% 16%;
+  }
+  .fraise{
+    width: 450px;
+   margin-left: 150px;
+  }
+  .imge-traiteur{
+    margin-right: 200px;
+    width: 500px !important;
   }
 }
 
@@ -171,6 +299,25 @@ nav{
   .bv {
     margin-left: 0px !important;
   }
+  .taiteur{
+    width: 582px !important;
+  }
+  .btn-reserve{
+    margin-left: 63px;
+  }
+
+  .bv{
+    margin-left: 47px !important;
+  }
+}
+
+@media all and (max-width: 375px){
+  .taiteur{
+    width: 550px !important;
+  }
+  .bv{
+    margin-left: 35px !important;
+  }
 }
 
 @media all and (max-width: 320px) {
@@ -184,7 +331,19 @@ nav{
   .bv {
     margin-left: 0px !important;
   }
+
+  .taiteur{
+    width: 500px !important;
+  }
+  h1{
+    font-size: 10px !important;
+  }
+
+  .btn-reserve{
+    margin-left: 10px;
+  }
 }
+
 
 
  
