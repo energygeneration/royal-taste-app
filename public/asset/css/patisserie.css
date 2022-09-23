@@ -11,6 +11,11 @@
   
   }
 
+  /* .btn-commande{
+    margin-left: 400px;
+    
+  } */
+
   
   .commande{
         margin: 2% 35% 2% 35%;
@@ -25,8 +30,15 @@
   .navposition{
     margin: 0 20%;
   }
+  nav {
+    margin: -43% 15%;
+  }
   li{
       font-size: 20px;
+  }
+  .btn-commande{
+    margin-left: 400px !important;
+    margin-top: 200px!important;
   }
 
   @media all and (max-width: 1440px){
@@ -89,4 +101,18 @@
       width: 280px !important;
       margin-left: 0px !important;
     }
+  }
+
+  @media all and (max-width: 320px){
+    .fraise {
+      width: 250px !important;
+      margin-left: 0px !important;
+    }
+    .card-img{
+      width: 250px !important;
+    }
+    /* h1 {
+      font-size: 15px;
+    } */
+
   }
