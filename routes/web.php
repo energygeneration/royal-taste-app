@@ -1,10 +1,13 @@
 <?php
 
+use App\utilisateur;
+use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\CommandezController;
 use App\Http\Controllers\ActualiterController;
 use App\Http\Controllers\FormulaireController;
+use App\Http\Controllers\afficherCommandeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -37,6 +40,22 @@ Route::get('/formulaire', function () {
     return view('layouts.formulaire');
 })->name('formulaire');
 
+Route::get('/utilisateur', function () {
+    $utilisateur = new utilisateur;
+    $utilisateur->nom = request('nom');
+    $utilisateur->prenom = request('prenom');
+    $utilisateur->email = request('email');
+    $utilisateur->telephone = request('telephone');
+    $utilisateur->events = request('events');
+    $utilisateur->numberperson = request('numberperson');
+    $utilisateur->budget = request('budget');
+    $utilisateur->message = request('message');
+    $utilisateur->save();
+    return "merci" .request('nom') .request('prenom') .request('email') .request('telephone') .request('events') .request('numberperson') .request('budget') .request('message');
+
+})->name('formulaire');
+
+
 Route::get('/commandez', function () {
     return view('layouts.commandez');
 })->name('commandez');
@@ -45,12 +64,12 @@ Route::get('/admin-dashbord', function () {
     return view('layouts.admin-dashbord');
 })->name('admin-dashbord');
 
-// Route::post('/textvu', function () {
-//     return view('layouts.textvu');
-// })->name('textvu');
+// Route::get('/afficherCommande', function () {
+//     return view('layouts.afficherCommande');
+// })->name('afficherCommande');
 
 // commandez database route
-Route::get('/textvu', [ActualiterController::class, 'actualiter']);
+Route::get('/afficherCommandes', [afficherCommandeController::class, 'afficherCommander'])->name('afficherCommandes');
 /*------------------------------------------
 --------------------------------------------
 All Normal Users Routes List
@@ -62,10 +81,10 @@ Route::middleware(['auth', 'user-access:user'])->group(function () {
 });
 
 // formulaire database route
-route::post('formulaire', [FormulaireController::class, 'formulaire']);
+route::post('formulaire', [FormulaireController::class, 'formulaire'])->name('formulaire');
 
 // commandez database route
-Route::post('/commandez', [CommandezController::class, 'commandez']);
+Route::post('/commandez', [CommandezController::class, 'commandezs'])->name('commandez');
 
 // actualiter database route
 // Route::get('/index', [ActualiterController::class, 'actualiter']);

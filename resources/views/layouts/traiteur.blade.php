@@ -70,9 +70,8 @@
                     <div class="navbar-nav ml-auto px-4">
                         <a href="{{route('index')}}" class="nav-item nav-link active">Acceuil</a>
                         <a href="{{route('patisserie')}}" class="nav-item nav-link">Patisserie</a>
-                        <a href="{{route('traiteur')}}" class="nav-item nav-link">Service traiteur</a>
                         <h3 style="margin-top: 30px;"> <span class="text-secondary" >ROYAL</span><span style="color: #F195B2">TASTE</span></h3>
-                        <a href="{{route('formulaire')}}" class="nav-item nav-link">Commander en ligne</a>
+                        <a href="{{route('traiteur')}}" class="nav-item nav-link">Service traiteur</a>
                         <a href="{{ route('login') }}" class="nav-item nav-link ">Login</a>
                     </div>
                 </div>
@@ -92,7 +91,7 @@
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-md-3">Traditionelle & Delicieuse</h4>
                             <h1 class="display-3 text-white mb-md-4">Notre Service Traiteur est disponible 7/7 </h1>
-                            <a href="{{route('formulaire')}}" class="btn btn-primary py-md-3 px-md-5 mt-2">résèrvez</a>
+                            <a href="{{route('formulaire')}}" class="btn btn-primary py-md-3 px-md-5 mt-2">Réservation</a>
                         </div>
                     </div>
                 </div>
@@ -102,7 +101,7 @@
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-md-3">Traditionelle & Delicieuse</h4>
                             <h1 class="display-3 text-white mb-md-4">ROYALTASTE,plus de soucis pour vos buffets</h1>
-                            <a href="{{route('formulaire')}}" class="btn btn-primary py-md-3 px-md-5 mt-2">résèrvez</a>
+                            <a href="{{route('formulaire')}}" class="btn btn-primary py-md-3 px-md-5 mt-2">Réservation</a>
                         </div>
                     </div>
                 </div>
@@ -147,7 +146,7 @@
     </div>
 
 
-    <div class=" raw d-flex mt-5 container justify-content-space-between" id="galerie-service">
+    <div class=" galerie-service raw d-flex mt-5 container justify-content-space-between" id="">
         <div class="col-4">
             <img src="./asset/img/buffet1.jpg" class="galerie-traiteur" width="400" height="300" alt="">
         </div>
@@ -161,7 +160,7 @@
         </div>
     </div>
 
-    <div class=" raw d-flex  mt-5 container justify-content- space-between " id="galerie-service">
+    <div class=" galerie-service raw d-flex  mt-5 container justify-content- space-between " id="">
         <div class="col-4">
             <img src="./asset/img/salad1.jpg" class="galerie-traiteur" width="400" height="300" alt="">
         </div>

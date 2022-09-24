@@ -64,12 +64,11 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav ml-auto px-4">
+                    <div class="navbar-nav mx-1 ml-auto px-4">
                         <a href="{{route('index')}}" class="nav-item nav-link active">Acceuil</a>
                         <a href="{{route('patisserie')}}" class="nav-item nav-link">Patisserie</a>
-                        <a href="{{route('traiteur')}}" class="nav-item nav-link">Service traiteur</a>
                          <h3 style="margin-top: 30px;"> <span class="text-secondary" >ROYAL</span><span style="color: #F195B2">TASTE</span></h3>
-                        <a href="{{route('formulaire')}}" class="nav-item nav-link">Commander en ligne</a>
+                         <a href="{{route('traiteur')}}" class="nav-item nav-link mx-5">Service traiteur</a>
                         <a href="{{ route('login') }}" class="nav-item nav-link ">Login</a>
                     </div>
                 </div>

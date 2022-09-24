@@ -93,9 +93,9 @@ nav{
   margin-left: 600px;
   margin-top: 20px;
   width: 250px;
-  font-size: 20px;
-  color: white;
-  background-color: #FF7E55;
+  font-size: 30px;
+  
+  
 }
 
 .btn-reserve{
@@ -110,9 +110,17 @@ nav{
   justify-content: space-around
 }
 .text-partie2{
-  margin-left: 100px;
+  margin-left: 70px;
   margin-top: 50px;
-  font-size: 35px;
+  font-size: 30px;
+  width: 500px;
+}
+.taiteur{
+  width: 550px;
+  height: 450px;
+}
+.commander-traiteur{
+  background-color: #17a2b8;
 }
 
 .royaltast{

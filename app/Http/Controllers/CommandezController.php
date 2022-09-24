@@ -2,26 +2,38 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Commandez;
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
 use App\Http\Controllers\CommandezController;
 
 class CommandezController extends Controller
 {
-    //
-    function commandez(Request $req){
-        $commandez = new Commandez;
-        $commandez->nom=$req->nom;
-        $commandez->telephone=$req->telephone;
-        $commandez->Prix=$req->Prix;
-        $commandez->color=$req->color;
-        $commandez->Inscription=$req->Inscription;
-        $commandez->Date=$req->Date;
-        $commandez->Lieu=$req->Lieu;
-        $commandez->Heure=$req->Heure;
-        $commandez->save();
-        return('ROYAL TASTE pour vous satisfaire.
-           Votre commande est bien enrégistrer, merci de nous faire confiance.');
+    public function create()
+    {
+        return view('layouts.commandez');
     }
+
+    public function store(Request $request)
+{
+    $commandez = new commandez;
+    // $commandez->nom = $request->nom;
+    // $commandez->telephone = $request->telephone;
+    // $commandez->Prix = $request->Prix;
+    // $commandez->color = $request->color;
+    // $commandez->Inscription = $request->Inscription;
+    // $commandez->Date = $request->Date;
+    // $commandez->Lieu = $request->Lieu;
+    // $commandez->Heure = $request->Heure;
+
+    $commandez->nom = 'birante';
+    $commandez->telephone = '1234';
+    $commandez->Prix = '1000';
+    $commandez->color = 'bvnh';
+    $commandez->Inscription = 'ama';
+    $commandez->Date = '12';
+    $commandez->Lieu = 'aer' ;
+    $commandez->Heure =  '12';
+
+    $commandez->save();
+    // return "C'est bien enregistré !";
+}
 }
