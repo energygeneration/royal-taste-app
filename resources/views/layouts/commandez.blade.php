@@ -71,9 +71,8 @@
                     <div class="navbar-nav ml-auto px-4">
                         <a href="{{route('index')}}" class="nav-item nav-link active">Acceuil</a>
                         <a href="{{route('patisserie')}}" class="nav-item nav-link">Patisserie</a>
-                        <a href="{{route('traiteur')}}" class="nav-item nav-link">Service traiteur</a>
                         <h3 style="margin-top: 30px;"> <span class="text-secondary" >ROYAL</span><span style="color: #F195B2">TASTE</span></h3>
-                        <a href="{{route('formulaire')}}" class="nav-item nav-link">Commander en ligne</a>
+                        <a href="{{route('traiteur')}}" class="nav-item nav-link">Service traiteur</a>
                         <a href="{{ route('login') }}" class="nav-item nav-link ">Login</a>
                     </div>
                 </div>
@@ -94,7 +93,7 @@
                             <h4 class="text-center">Commandez ici!</h4>
                         </div>
                         <div class="card-body">
-                            <form action="commandez" method="post">
+                            <form action="/commandez" method="POST">
                             @csrf
                                 <div class=".form-control mb-3">
                                     <label for="InputName" class="form-label">Votre nom</label>
@@ -128,8 +127,8 @@
                                     <label for="InputHeure" class="form-label">Heure de livraison</label>
                                     <input type="hour" name="Heure" class="form-control" id="InputHeure" required>
                                 </div>
-                                <div class="souscrire form-button mt-3">
-                                    <button id="submit" type="submit" class="btn">Envoyer</button>
+                                <div class="  mt-3">
+                                <a href="" class="btn btn-primary py-3 px-5 mt-2">Envoyer</a>
                                 </div>
                             </form>
                         </div>

@@ -5,10 +5,8 @@
     <meta charset="utf-8">
     <title>ROYALTASTE</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/css/patisserie.css">
+    <!-- <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/css/patisserie.css"> -->
 
     <link rel="stylesheet" href="./asset/css/patisserie.css">
     <link rel="stylesheet" href="./asset/css/style.css">
@@ -68,12 +66,11 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav ml-auto px-4">
+                    <div class="navbar-nav mx-1 ml-auto px-4">
                         <a href="{{route('index')}}" class="nav-item nav-link active">Acceuil</a>
                         <a href="{{route('patisserie')}}" class="nav-item nav-link">Patisserie</a>
-                        <a href="{{route('traiteur')}}" class="nav-item nav-link">Service traiteur</a>
                         <h3 style="margin-top: 30px;"> <span class="text-secondary" >ROYAL</span><span style="color: #F195B2">TASTE</span></h3>
-                        <a href="{{route('formulaire')}}" class="nav-item nav-link">Commander en ligne</a>
+                        <a href="{{route('traiteur')}}" class="nav-item nav-link mx-5">Service traiteur</a>
                         <a href="{{ route('login') }}" class="nav-item nav-link ">Login</a>
                     </div>
                 </div>
@@ -163,7 +160,7 @@
               <div class="card" style="width: 18rem;">
                 <img src="./asset/img/babyshower.jpg" class="card-img-top p-2" height="300" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">gateau-enfant</h5>
+                  <h5 class="card-title">Babyshower</h5>
                 </div>
               </div>
             </div>
@@ -171,7 +168,7 @@
               <div class="card" style="width: 18rem;">
                 <img src="./asset/img/biscut.jpg" class="card-img-top p-2" height="300" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Super biscuts</h5>
                 </div>
               </div>
             </div>
@@ -179,7 +176,7 @@
               <div class="card" style="width: 18rem;">
                 <img src="./asset/img/foret-noir.jpg" class="card-img-top p-2" height="300" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Forêt noir</h5>
                 </div>
               </div>
             </div>
@@ -193,7 +190,7 @@
               <div class="card" style="width: 18rem;">
                 <img src="./asset/img/gateau-enfant.jpg" class="card-img-top p-2" height="300" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Gâteau-enfant</h5>
                 </div>
               </div>
             </div>
@@ -201,7 +198,7 @@
               <div class="card" style="width: 18rem;">
                 <img src="./asset/img/happy-birthday-chocolat.jpg" class="card-img-top p-2" height="300" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Happy birthday</h5>
                 </div>
               </div>
             </div>
@@ -209,7 +206,7 @@
               <div class="card" style="width: 18rem;">
                 <img src="./asset/img/happy1.jpg" class="card-img-top p-2" height="300" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Gâteau de saison</h5>
                 </div>
               </div>
             </div>
@@ -223,7 +220,7 @@
               <div class="card" style="width: 18rem;">
                 <img src="./asset/img/chantily.jpg" class="card-img-top p-2" height="300" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Gâteau-adulte</h5>
                 </div>
               </div>
             </div>
@@ -231,7 +228,7 @@
               <div class="card" style="width: 18rem;">
                 <img src="./asset/img/cupcak2.jpg" class="card-img-top p-2" height="300" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">CupCake</h5>
                 </div>
               </div>
             </div>
@@ -239,7 +236,7 @@
               <div class="card" style="width: 18rem;">
                 <img src="./asset/img/four.jpg" class="card-img-top p-2" height="300" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Petit Four</h5>
                 </div>
               </div>
             </div>
@@ -247,7 +244,7 @@
       </div>
 
     </div>
-    <a href="{{route('commandez')}}" class="btn-commande btn btn-primary py-md-3 px-md-5 mt-2">Commander</a>
+    <a href="{{route('commandez')}}" class="btn-commande btn btn-primary py-md-3  px-md-5 mt-2">Commander</a>
     </div>
 
     </div>

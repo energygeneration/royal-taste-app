@@ -66,12 +66,11 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav ml-auto px-4">
+                    <div class="navbar-nav mx-1 ml-auto px-4">
                         <a href="{{route('index')}}" class="nav-item nav-link active">Acceuil</a>
                         <a href="{{route('patisserie')}}" class="nav-item nav-link">Patisserie</a>
-                        <a href="{{route('traiteur')}}" class="nav-item nav-link">Service traiteur</a>
                         <h3 style="margin-top: 30px;"> <span class="text-secondary" >ROYAL</span><span style="color: #F195B2">TASTE</span></h3>
-                        <a href="{{route('formulaire')}}" class="nav-item nav-link">Commander en ligne</a>
+                        <a href="{{route('traiteur')}}" class="nav-item nav-link mx-5">Service traiteur</a>
                         <a href="{{ route('login') }}" class="nav-item nav-link ">Login</a>
                     </div>
                 </div>
@@ -92,7 +91,7 @@
                             <h4 class="text-center">Réservez ici!</h4>
                         </div>
                         <div class="card-body">
-                            <form action="formulaire" method="post">
+                            <form action="{{route('formulaire')}}" method="post">
                               @csrf
                                 <div class=".form-control mb-3">
                                     <label for="InputName" class="form-label">Votre nom</label>
@@ -111,7 +110,7 @@
                                     <input type="number" name="telephone" class="form-control" id="InputNumberWhatsap" required>
                                 </div>
                                 <select class="form-control" aria-label="Default select example" name="events">
-                                  <option selected>Type d'événement</option>
+                                  <option selected><p class="type">Type d'événement</p> </option>
                                   <option value="Mariage">Mariage</option>
                                   <option value="Anniversaire">Anniversaire</option>
                                   <option value="Baptème">Baptème</option>
@@ -130,7 +129,7 @@
                                 </div>
                               
                                 <div class="  mt-3">
-                                <a href="{{route('commandez')}}" class="btn btn-secondary py-3 px-5 mt-2">Envoyer</a>
+                                <a href="" class="btn btn-secondary py-3 px-5 mt-2">Envoyer</a>
                                 </div>
                             </form>
                         </div>

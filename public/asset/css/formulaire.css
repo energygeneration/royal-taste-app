@@ -22,4 +22,55 @@ font-size: 20px;
 color: white;
 background-color: #FF7E55;
 }
+.navposition{
+  margin: 0 20%;
+}
 
+@media all and (max-width: 1440px){
+  input, select{
+    width: 580px !important;
+    margin-left: 0px !important;
+  }
+  .form-label{
+    font-size: 15px;
+  }
+}
+@media all and (max-width: 1024px){
+  input, select{
+    width: 470px !important;
+    margin-left: 0px !important;
+  }
+  .form-label{
+    font-size: 15px;
+  }
+}
+
+@media all and (max-width: 786px){
+  input, select{
+    width: 330px !important;
+    margin-left: 0px !important;
+  }
+  .form-label{
+    font-size: 15px;
+  }
+}
+
+@media all and (max-width: 425px){
+  input, select{
+    width: 300px !important;
+    margin-left: 0px !important;
+  }
+  .form-label{
+    font-size: 15px;
+  }
+}
+
+@media all and (max-width: 320px){
+  input, select{
+    width: 230px !important;
+    margin-left: 0px !important;
+  }
+  .form-label{
+    font-size: 12px;
+  }
+}
